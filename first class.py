@@ -37,3 +37,11 @@ age = int(input("enter your age"))
 random_number = int(input("enter any number"))
 print("name:",name)
 print(age+random_number)
+
+
+#String Formatting
+#use f string to format string literals
+name = input("enter your name")
+age = int(input("enter your age"))
+random_number = int(input("enter any number"))
+print(f"name of the person is {name} and age is {age}")
